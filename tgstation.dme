@@ -5222,6 +5222,7 @@
 #include "code\modules\mob\living\carbon\human\species_types\onis.dm"
 #include "code\modules\mob\living\carbon\human\species_types\plasmamen.dm"
 #include "code\modules\mob\living\carbon\human\species_types\podpeople.dm"
+#include "code\modules\mob\living\carbon\human\species_types\polysmorphs.dm"
 #include "code\modules\mob\living\carbon\human\species_types\shadowpeople.dm"
 #include "code\modules\mob\living\carbon\human\species_types\skeletons.dm"
 #include "code\modules\mob\living\carbon\human\species_types\snail.dm"
