@@ -20,8 +20,8 @@
 	)
 
 	// Minimal organ overrides (safe defaults)
-	mutanttongue = /obj/item/organ/internal/tongue
-	mutanteyes = /obj/item/organ/internal/eyes
+//	mutanttongue = /obj/item/organ/internal/tongue
+//	mutanteyes = /obj/item/organ/internal/eyes
 
 	// Optional language (remove if it errors)
 	species_language_holder = /datum/language_holder
