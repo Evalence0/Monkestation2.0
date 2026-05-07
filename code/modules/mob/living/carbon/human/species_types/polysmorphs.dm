@@ -5,17 +5,17 @@
 
 	inherent_biotypes = MOB_ORGANIC | MOB_HUMANOID
 
-//	inherent_traits = list(
+	inherent_traits = list(
 //	TRAIT_MUTANT_COLORS
-//	)
+	)
 
 	// Visual customization hooks (safe, matches other species)
-//	mutant_bodyparts = list(
+	mutant_bodyparts = list(
 //		"tail_polysmorph" = "None",
 //		"dome" = "None",
 //		"dorsal_tubes" = "None",
 //		"teeth" = "None"
-//	)
+	)
 
 	// Minimal organ overrides (safe defaults)
 //	mutanttongue = /obj/item/organ/internal/tongue
