@@ -3,13 +3,11 @@
 	plural_form = "Polysmorphs"
 	id = SPECIES_POLYSMORPH
 
-	// Basic identity
 	inherent_biotypes = MOB_ORGANIC | MOB_HUMANOID
 
-	// Very light traits (ONLY if these exist, otherwise remove)
-	inherent_traits = list(
-	TRAIT_MUTANT_COLORS
-	)
+//	inherent_traits = list(
+//	TRAIT_MUTANT_COLORS
+//	)
 
 	// Visual customization hooks (safe, matches other species)
 //	mutant_bodyparts = list(
