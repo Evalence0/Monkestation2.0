@@ -12,12 +12,12 @@
 	)
 
 	// Visual customization hooks (safe, matches other species)
-	mutant_bodyparts = list(
-		"tail_polysmorph" = "None",
-		"dome" = "None",
-		"dorsal_tubes" = "None",
-		"teeth" = "None"
-	)
+//	mutant_bodyparts = list(
+//		"tail_polysmorph" = "None",
+//		"dome" = "None",
+//		"dorsal_tubes" = "None",
+//		"teeth" = "None"
+//	)
 
 	// Minimal organ overrides (safe defaults)
 //	mutanttongue = /obj/item/organ/internal/tongue
