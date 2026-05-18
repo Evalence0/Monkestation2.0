@@ -5,26 +5,15 @@
 
 	inherent_biotypes = MOB_ORGANIC | MOB_HUMANOID
 
-	inherent_traits = list(
-//	TRAIT_MUTANT_COLORS
+	bodypart_overrides = list(
+		BODY_ZONE_HEAD = /obj/item/bodypart/head/polysmorph,
+		BODY_ZONE_CHEST = /obj/item/bodypart/chest/polysmorph,
+		BODY_ZONE_L_ARM = /obj/item/bodypart/arm/left/polysmorph,
+		BODY_ZONE_R_ARM = /obj/item/bodypart/arm/right/polysmorph,
+		BODY_ZONE_L_LEG = /obj/item/bodypart/leg/left/polysmorph,
+		BODY_ZONE_R_LEG = /obj/item/bodypart/leg/right/polysmorph,
 	)
 
-	// Visual customization hooks (safe, matches other species)
-	mutant_bodyparts = list(
-//		"tail_polysmorph" = "None",
-//		"dome" = "None",
-//		"dorsal_tubes" = "None",
-//		"teeth" = "None"
-	)
-
-	// Minimal organ overrides (safe defaults)
-//	mutanttongue = /obj/item/organ/internal/tongue
-//	mutanteyes = /obj/item/organ/internal/eyes
-
-	// Optional language (remove if it errors)
-	species_language_holder = /datum/language_holder
-
-	// Standard flags (copied from other species)
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | RACE_SWAP | ERT_SPAWN | SLIME_EXTRACT
 /datum/species/polysmorph/get_species_description()
 	return "A strange human-xenomorph hybrid with an unsettling appearance."
