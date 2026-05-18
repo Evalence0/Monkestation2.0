@@ -11,7 +11,7 @@
 	limb_id = SPECIES_POLYSMORPH
 	is_dimorphic = FALSE
 	ass_image = 'icons/ass/assalien.png'
-	wing_types = list(/obj/item/organ/external/wings/functional/wings)
+	wing_types = list(/obj/item/organ/external/wings/functional/angel)
 	palette = /datum/color_palette/generic_colors
 	palette_key = MUTANT_COLOR
 
