@@ -67,11 +67,6 @@
 		'sound/effects/footstep/hardclaw4.ogg',
 	)
 
-/// Checks if this mob is wearing anything that does not have a valid sprite set for digitigrade legs
-/// (In other words, is the mob's digitigrade body squished by its clothing?)
-/mob/living/carbon/proc/is_digitigrade_squished()
-	return FALSE
-
 /mob/living/carbon/human/is_digitigrade_squished()
 	var/obj/item/clothing/shoes/worn_shoes = shoes
 	var/obj/item/clothing/under/worn_suit = wear_suit
